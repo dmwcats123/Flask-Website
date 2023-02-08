@@ -1,0 +1,67 @@
+ body {
+  background-color: gray;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  clear: both;
+
+}
+
+.container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    z-index: -1;
+    width: 100%;
+  }
+
+#page-container {
+  flex-direction: column;
+}
+
+#navbar {
+    background-color: #333; /* Black background color */
+    position: relative; /* Make it stick/fixed */
+    width: 100%; /* Full width */
+    height: 5%;
+    background-color: black;
+    z-index: -1;
+  }
+  
+  /* Style the navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+  }
+  
+  #navbar a:hover {
+    background-color: white;
+    color: black;
+  }
+
+  #home {
+    position: relative;
+    float: left;
+    margin: 0;
+    display: inline-block;
+  }
+
+  #name_top {
+    font-family: opensans-bold;
+  }
+
+  #home {
+    text-align: center;
+  }
+
+  #introduction-page {
+    position: relative;
+    float: left;
+  }  
+
+
