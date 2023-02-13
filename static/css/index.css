@@ -1,10 +1,21 @@
  body {
-  background-color: gray;
+  background-color: #E07A5F;
   color: white;
   padding: 0px;
   margin: 0px;
   clear: both;
+  height:80vh;
+}
 
+footer {
+  background-color: #E07A5F;
+  margin:0px;
+  height:5vh;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
 }
 
 .container {
@@ -16,17 +27,18 @@
   }
 
 #page-container {
+  height: 100%;
   flex-direction: column;
 }
 
 #navbar {
   display:block;
-    background-color: #333; /* Black background color */
-    position: relative; /* Make it stick/fixed */
+    background-color: #81B29A;
+    position: sticky; /* Make it stick/fixed */
     width: 100%; /* Full width */
-    height: 50px;
-    background-color: black;
     overflow: hidden;
+    justify-content: center;
+    position: fixed;
   }
 
   /* Style the navbar links */
@@ -35,9 +47,9 @@
     display: block;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 12px;
     text-decoration: none;
-    font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+    font-family: opensans;
   }
   
   #navbar a:hover {
@@ -49,20 +61,78 @@
     position: relative;
     float: left;
     margin: 0;
-    display: inline-block;
-  }
-
-  #name_top {
-    font-family: opensans-bold;
-  }
-
-  #home {
+    top: 35vh;
     text-align: center;
+    height: 90vh;
+
   }
+
+  h1 {
+    font-family: opensans-bold;
+    margin: 0px;
+  }
+
+  h3 {
+    margin: 0px;
+  }
+
 
   #introduction-page {
     position: relative;
     float: left;
+    background-color: #3D405B;
   }  
 
+  #landing-page {
+    position: relative;
+    float: left;
+    background-color: #E07A5F;
+    background-image: url("../../assets/background-image.avif");
+    background-size: cover;
+    height: 100vh;
+    min-height: 100vh;
+  }
+  
+  #top-about {
+    flex-direction: row;
+  }
 
+  #left-about {
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+  }
+  #right-about {
+    width: 50%;
+    text-align: center;
+  }
+  
+#personal-intro {
+  margin-top: 0px;
+  width: 70%;
+  transform: translate(25%, 0%);
+  text-align: center;
+  font-size: smaller;
+}
+
+#personal-intro-heading {
+  margin-bottom:0px;
+}
+
+#load-bar-90 {
+  position:aboslute;
+  background-color: #22223B;
+  height:12px;
+  width:90%;
+  top: 0;
+  left: 0;
+}
+
+#load-bar-background {
+  position: absolute;
+  background-color: #31314c;
+  height:12px;
+  width:100%;
+  top: 0;
+  left: 0;
+}
