@@ -6,8 +6,8 @@ var newscroll;
 
 mywindow.scroll(function () {
     newscroll = mywindow.scrollTop();
-    if (newscroll > 5) {    
-        if (newscroll > mypos && !up) {
+    
+    if (newscroll > mypos && !up) {
         $('#navbar').stop().fadeOut();
         up = !up;
         console.log(up);
@@ -15,6 +15,6 @@ mywindow.scroll(function () {
         $('#navbar').stop().fadeIn();
         up = !up;
     }
-    mypos = newscroll;}
+    mypos = newscroll;
 
 });
