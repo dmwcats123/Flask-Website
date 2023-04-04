@@ -6,7 +6,7 @@ var newscroll;
 
 mywindow.scroll(function () {
     newscroll = mywindow.scrollTop();
-    if (newscroll > 2) {    
+    if (newscroll > 5) {    
         if (newscroll > mypos && !up) {
         $('#navbar').stop().fadeOut();
         up = !up;
