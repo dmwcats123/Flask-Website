@@ -118,7 +118,7 @@ ul {
     float: left;
     background-color: #E07A5F;
     background-image: url("../../assets/background-image.avif");
-    width: 150%;
+    background-size: cover;
     height: 100vh;
     min-height: 100vh;
   }
