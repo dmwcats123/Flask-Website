@@ -9,47 +9,131 @@
 <body>
   <div id="navbar" class = "inner">
     <a href="#home" >Home</a>
-    <a href = "#introduction-page">About Me</a>
-    <a href="#education">Education</a>
+    <a href = "#landing-page">About Me</a>
+    <a href="#education-page">Education</a>
     <a href="#workExperience">Work Experience</a>
     <a  href="#contact">Contact</a>
   </div>
   <div id = "page-container" class = "container">
-    <div id = "landing-page" class = "container">
+    <div id = "landing_page" class = "container">
 
       <div id ="home" class = "inner">
-        <h1 id = "name_top">David Matthews</h1>
-        <h3>Data Analyst | Software Engineer | Web Developer</h3>
+        <div id = "home_text">
+          <h1 id = "name_top">David Matthews</h1>
+          <h3 id>| Data Analyst | Software Engineer | Web Developer |</h3>
+        </div>
       </div>
     </div>
     <div id = "introduction-page" class = "container">
       <div id = "top-about" class = "container">
         <div id="left-about">
-          <h2 id ="personal-intro-heading">About Me</h2>
+          <h3 id ="personal-intro-heading">About Me</h3>
           <p id="personal-intro">I am David Matthews, a new grad with my BS in Computer Science (expected graduation May of 2022).
             I worked in retail, and in education to pay for my schooling, but CS and software development is my passion.
           </p>
         </div>
         <div id ="right-about">
-          <h2>Skills</h2>
+          <h3>Skills</h3>
           <ul>
             <li>
               <p style="margin: 0">C++</p>
-              <div class="w3-light-grey" style = "margin:10px">
+              <div class="w3-light-grey" style = "margin-right: 15px; margin-left: 15px;">
                 <div class="w3-blue-grey" style="height:12px;width:90%;"></div>
               </div>
             </li>
             <li>
-              <p>Java</p>
-              <div class="w3-light-grey" style = "margin:10px">
+              <p style="margin:0">Java</p>
+              <div class="w3-light-grey" style = "margin-right: 15px; margin-left: 15px;">
                 <div class="w3-blue-grey" style="height:12px;width:90%;"></div>
               </div>
             </li>
-            <li><div></div></li>
-          </ul>
+              <li>
+                <p style="margin: 0">SQL</p>
+                <div class="w3-light-grey" style = "margin-right: 15px; margin-left: 15px;">
+                  <div class="w3-blue-grey" style="height:12px;width:70%;"></div>
+                </div>
+              </li>
+              <li>
+                <p style="margin: 0">HTML</p>
+                <div class="w3-light-grey" style = "margin-right: 15px; margin-left: 15px;">
+                  <div class="w3-blue-grey" style="height:12px;width:70%;"></div>
+                </div>
+              </li>
+              <li>
+                <p style="margin: 0">CSS</p>
+                <div class="w3-light-grey" style = "margin-right: 15px; margin-left: 15px;">
+                  <div class="w3-blue-grey" style="height:12px;width:70%;"></div>
+                </div>
+              </li>  
+              <li>
+                <p style="margin: 0">JavaScript</p>
+                <div class="w3-light-grey" style = "margin-right: 15px; margin-left: 15px;">
+                  <div class="w3-blue-grey" style="height:12px;width:70%;"></div>
+                </div>
+              </li>           
+            </ul>
         </div>
       </div>
     </div>
+    <div id = "education-page" class = "container">
+      <h2 style="text-align: center;">My Education</h2>
+      <div id ="education-top">
+        <p id ="education-summary" style="margin-left: 10px; margin-right: 10px;">I began my post-secondary education at the University of Illinois,
+          pursuing a degree in mathematics and computer science. Life forced me to find an alternative option,
+          and I found Western Governor's University. At Western Governor's university I received a degree in Computer
+          Science while building upon the foundational concepts I learned at university of Illinois.
+        </p>
+        <div id = "horizontal-container">
+          <div style = "text-align: center;" id = "coursework" >
+            <h3 style = "margin-left: 10px; margin-right: 10px;">Coursework</h3>
+            <ul style = "margin: 2px">
+              <li>Calculus 1-3</li>
+              <li>Data Structures & Algorithms 1 & 2</li>
+              <li>Advanced Data Management</li>
+              <li>Discrete Math 1 & 2</li>
+              <li>Software 1 & 2</li>
+            </ul>
+          </div>
+          <div style = "text-align: center;" id = "projects" ><h3>Projects</h3></div>
+        </div>
+      </div>
+    </div>
+    <div id ="work_experience_page">
+      <h3>Work Experience</h3>
+      <div style = "display: flex; flex-direction: row; margin: 15px; background-color: gray; border-radius: 10px;" id = "Walmart">
+        <div id = "walmart_text">
+          <h5 style = "margin:0px; margin-left: 10px; font-size: 4vw;">Walmart</h5>
+          <h8 style = "margin: 0px; margin-left: 20px; font-size: 3vw;">Team Lead</h6>
+          <ul style = "margin: 0px; margin-left: 30px; font-size: 2vw; list-style: circle;"> 
+          <li>I ran the highest volume (based on sales) online grocery department in the midwest region.</li>
+          <li>I acted as the only manager in the building while running the overnight stocking team.</li>
+          <li>I ran the front end to improve customer interactions with our cashiers and service desk along with managing the store's cash flow.</li>
+          </ul>
+        </div>
+        <div style = "width: 100%">
+          <img src = "assets/Walmart_Spark.png" style = "height: 100%; width: 100%; right:0;">
+        </div>
+        </div>
+        <div style = "display: flex; flex-direction: row; margin: 15px; background-color: gray; border-radius: 10px;" id = "Teacher">
+          <div style = "width: 50%">
+            <img src = "assets/Laboratory-Flask-PNG-Pic.png" style = "width: 100%; height: 100%;">
+          </div>
+          <div id = "teacher-text">
+            <h3 style = "margin-left: 10px">Science Teacher</h3>
+            <ul style = "margin: 0px; margin-left: 30px; font-size: 2vw; list-style: circle;"> 
+              <li>I teach physical science (physics, chemistry, earth science, forensics) at the high school I attended.</li>
+              <li>I develop fun and interactive lesson plans.</li>
+              </ul>
+          </div>
+        </div>
+    </div>
+    <div id = "contact_page" style = "text-align: center; margin: 0px;">
+      <h1 style = "text-align: center; margin: 0px;">Contact me</h1>
+      <p style = "text-align: center; margin: 0px;">Phone: (618)499-5666</p>
+      <p style = "text-align: center; margin: 0px;">Email: dmwcats123@gmail.com </p>
+
+    </div>
+
     <footer><p>Created by David Matthews | &copy; 2022</p></footer>
   </div>
 </body>

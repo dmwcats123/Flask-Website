@@ -5,6 +5,7 @@
   margin: 0px;
   clear: both;
   height:80vh;
+  font-size: 2vw;
 }
 
 footer {
@@ -26,9 +27,15 @@ ul {
     width: 100%;
   }
 
+
 #page-container {
   height: 100%;
   flex-direction: column;
+}
+
+#horizontal-container{
+  display: flex;
+  flex-direction: row;
 }
 
 #navbar {
@@ -57,25 +64,31 @@ ul {
     color: black;
   }
 
-  #home {
+
+  #home_text {
     position: relative;
-    float: left;
+    float: center;
     margin: 0;
     top: 35vh;
     text-align: center;
     height: 90vh;
-
   }
 
   h1 {
     font-family: opensans-bold;
     margin: 0px;
+    font-size: 6vw;
+  }
+
+  h2 {
+    margin: 0px;
+    font-size:5vw;
   }
 
   h3 {
     margin: 0px;
+    font-size:4vw;
   }
-
 
   #introduction-page {
     position: relative;
@@ -83,7 +96,7 @@ ul {
     background-color: #3D405B;
   }  
 
-  #landing-page {
+  #landing_page {
     position: relative;
     float: left;
     background-color: #E07A5F;
@@ -101,38 +114,47 @@ ul {
     width: 50%;
     text-align: center;
     justify-content: center;
+    float: center;
+    background-color: grey;
+    border-radius: 15px;
+    margin: 5%;
   }
+
   #right-about {
     width: 50%;
     text-align: center;
   }
   
 #personal-intro {
-  margin-top: 0px;
+  margin: 0px;
   width: 70%;
+  height: 100%;
   transform: translate(25%, 0%);
   text-align: center;
-  font-size: smaller;
 }
 
 #personal-intro-heading {
   margin-bottom:0px;
 }
 
-#load-bar-90 {
-  position:aboslute;
-  background-color: #22223B;
-  height:12px;
-  width:90%;
-  top: 0;
-  left: 0;
+#coursework {
+  width: 50%;
+  background: #3D405B;
+  border-radius: 15px;
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
 }
 
-#load-bar-background {
-  position: absolute;
-  background-color: #31314c;
-  height:12px;
-  width:100%;
-  top: 0;
-  left: 0;
+#projects {
+  width: 50%;
+  background: #3D405B;
+  border-radius: 15px;
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+#work_experience_page {
+  background: #3D405B;
 }
